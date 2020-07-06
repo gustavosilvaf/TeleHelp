@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header {
+    width: 100%;
+    max-width: 1980px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    align-items: center;
+}
+
+.Header__logo {}
+
+.Header__link {
+    padding: 1em;
+    color: #000;
+    font-weight: 700;
+}
+
+.Header__link:hover {
+    opacity: 80%;
+}
+
+.Header__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Header__call {
+    padding: 0 1em;
+}
+
+.Header__instruction-text {
+    font-weight: 500;
+}
+
+.Header__number-text {
+    font-weight: 700;
+    color: #de4349;
+}
+
+.Header__button {
+    display: flex;
+    align-items: center;
+    background-color: #de4349;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+.Header__button > img {
+   margin-right: 0.5em;
+}
+
+.Header__button:hover {
+    opacity: 80%;
+}
+
+.Promotion {
+    width: 100%;
+    background-color: #f15e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    color: #fff;
+}
+
+.Promotion > img {
+    margin-right: 1em;
+}
+
+.Promotion > span {
+    margin: 0 4px;
+    font-weight: 600;
+}
+
+.FirstContainer {
+    background-color: #cdcdcd;
+    width: 100%;
+}
